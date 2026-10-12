@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Netflix</title>
+    <style>
+        * { padding: 0; margin: 0; box-sizing: border-box; }
+        body { background-color: #0b0b13; color: white; font-family: Arial, sans-serif; }
+        header { background-color: #0b0b13; padding: 15px 4%; border-bottom: 1px solid #1f1f2e; position: fixed; width: 100%; top: 0; z-index: 100; }
+        .menu-principal { display: flex; align-items: center; justify-content: space-between; }
+        .logo-container img { width: 100px; display: block; }
+        nav ul { display: flex; list-style: none; gap: 15px; }
+        nav ul li a { color: #aaa; text-decoration: none; font-size: 13px; font-weight: bold; }
+        nav ul li a.active { color: #9146ff; text-shadow: 0 0 10px #9146ff; }
+
+        main { margin-top: 90px; padding: 30px 4%; display: flex; flex-direction: column; gap: 25px; }
+        .banner-games { background: linear-gradient(90deg, #1f1f3a, #0b0b13); padding: 40px; border-radius: 12px; border: 1px solid #3c3c7a; }
+        .banner-games h1 { font-size: 32px; color: #9146ff; margin-bottom: 10px; }
+        .banner-games p { color: #d0d0f0; font-size: 14px; }
+
+        .lista-games { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 10px; }
+        .card-game { min-width: 160px; background: #161622; border-radius: 8px; overflow: hidden; border: 1px solid #292945; }
+        .card-game img { width: 100%; height: 200px; object-fit: cover; }
+        .card-game h4 { font-size: 13px; padding: 10px; color: #fff; }
+
+        footer { background: #0b0b13; padding: 30px 4%; color: #666; text-align: center; margin-top: 50px; font-size: 12px; border-top: 1px solid #1f1f2e; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-principal">
+            <div class="logo-container"><img src="../imagens/Icones/NETFLIX.jpg" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="../html/home.html"> HOME  </a></li>
+                    <li><a href="tvshows.html">TV SHOWS</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="games.html" class="active">GAMES</a></li>
+                    <li><a href="news&popular.html">NEWS & POPULAR</a></li>
+                    <li><a href="mylist.html">MY LIST</a></li>
+                    <li><a href="browser.html">BROWSER</a></li>
+                </ul>
+            </nav>
+            <div style="font-size: 16px;">🔍 🔔 👤</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner-games">
+            <h1>🎮 Netflix Games</h1>
+            <p>Jogue sem limites, sem anúncios e sem compras no aplicativo. Incluído na sua assinatura.</p>
+        </div>
+        <h3>Disponíveis para Celular</h3>
+        <div class="lista-games">
+            <div class="card-game"><img src="../imagens/filmes/filme5.jpg" alt=""><h4>Cyber Quest</h4></div>
+            <div class="card-game"><img src="../imagens/filmes/filme6.jpg" alt=""><h4>Shadow Runner</h4></div>
+            <div class="card-game"><img src="../imagens/filmes/filme7.jpg" alt=""><h4>Puzzle Master</h4></div>
+            <div class="card-game"><img src="../imagens/filmes/filme8.jpg" alt=""><h4>Speed Rush</h4></div>
+        </div>
+    </main>
+
+    <footer>@content direitos reservados</footer>
+</body>
+</html>

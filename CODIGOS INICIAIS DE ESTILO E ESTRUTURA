@@ -1,0 +1,1150 @@
+<!--  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <title>HOME</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu-principal"  id="menu-principal">
+            <div class="logo-container"><img src="" alt=""></div>
+            <div class="TOPNAV-container">
+                <nav>
+                    <ul>
+                        <li><a href="../html/tvshows.html"> TVSHOWS </a></li>
+                        <li><a href="../html/movies.html"> MOVIES </a></li>
+                        <li><a href="../html/games.html"> GAMES </a></li>
+                        <li><a href="../html/news&popular.html"> NEWS & POPULAR </a></li>
+                        <li><a href="../html/mylist.html"> MY LIST </a></li>
+                        <li><a href="../html/browser.html"> BROWSER </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-pequeno-container">
+                    <button style="background-color: transparent; border-radius: none;"> &#x1F50D;
+                        <!--<form action="/action_page.php">
+                            <label for=" "> </label><br>
+                            <input type="text" id=" " name=" "><br>
+                        </form>-->
+                    </button>
+                <!--<button><img src="/imagens/Icones/sino-de-notificacao.png" alt="sino"></button>-->
+                <p>🔔</p>
+                <span> &#128100; </span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <div class="hero-text">
+                <!--<img src="../imagens/banner2.jpeg" alt="">-->
+                <h1>BATMAN</h1>
+                <p>De qualquer forma, “Batman – O Cavaleiro das Trevas Ressurge” mostra o retorno de Bruce Wayne ao uniforme preto, após oito anos de paz em Gotham City, graças ao que acreditam ter sido uma vitória de Harvey Dent.</p>
+                <button> PLAY </button>
+                <button> !INFO </button>
+            </div>
+        </div>
+
+        <div class="menu2-container">
+            
+            <div class="KDRAMA-container">
+
+                <div class="explore">
+                    <h2>KDRAMA FILMES</h2>
+                    <p><a href="">EXPLORE ALL</a> &#10148;</p>
+                </div>
+                <div class="lista-filmes">
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme1.jpg" alt=""></a> </div>
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme2.jpg" alt=""></a> </div>
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme3.jpg" alt=""></a> </div>
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme4.jpg" alt=""></a> </div>
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme6.jpg" alt=""></a> </div>
+                    <div class="filmes-KDRAMA"> <a href=""><img src="/imagens/filmes/filme5.jpg" alt=""></a> </div>
+                </div>
+            </div>
+
+
+            <div class="BOREDOMBUSTERS-container">
+
+                <div class="explore">
+                    <h2> BOREDUMBUSTERS </h2>
+                    <p><a href="">EXPLORE ALL</a> &#27A4 </p>
+                </div>
+                <div class="lista-filmes">
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme7.jpg" alt=""></a> </div>
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme24.jpg" alt=""></a> </div>
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme8.jpg" alt=""></a> </div>
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme9.jpg" alt=""></a> </div>
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme10.jpg" alt=""></a> </div>
+                    <div class="filmes-BOREDOMBUSTERS"> <a href=""> <img src="/imagens/filmes/filme11.png" alt=""></a> </div>
+                </div>
+            </div>
+
+            <div class="top10-container">
+                <h2> TOP 10 DA SEMANA </h2>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme12.jpg" alt=""></a> <h3> 1 </h3></div>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme13.jpg" alt=""></a> <h3> 2 </h3></div>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme14.jpg" alt=""></a> <h3> 3 </h3></div>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme15.jpg" alt=""></a> <h3> 4 </h3></div>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme16.jpg" alt=""></a> <h3> 5 </h3></div>
+                <div class="filmes-top10"> <a href=""><img src="/imagens/filmes/filme17.jpg" alt=""></a> <h3> 6</h3></div>
+            </div>
+
+            <div class="chosenFamily-container">
+                <div class="explore">
+                    <h2> CHOSEN FAMILY </h2>
+                    <p><a href="">EXPLORE ALL</a> &#27A4 </p>
+                </div>
+                <div class="lista-filmes">
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme18.jpg" alt=""></a> </div>
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme19.jpg" alt=""></a> </div>
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme20.jpg" alt=""></a> </div>
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme21.png" alt=""></a> </div>
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme22.jpg" alt=""></a> </div>
+                    <div class="filmes-chosenFamily"> <a href=""><img src="/imagens/filmes/filme23.jpg" alt=""></a> </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    
+
+
+
+<footer>
+
+    <div class="icones-redes-container">
+        <div class="icone"><a href="https://www.instagram.com/"><img src="/imagens/Icones/instagram (1).png" alt="instagram"></a></div>
+        <div class="icone"><a href="https://www.facebook.com/"><img src="/imagens/Icones/facebook.png" alt=""></a></div>
+        <div class="icone"><a href="https://www.youtube.com/"><img src="/imagens/Icones/youtube.png" alt=""></a></div>
+    </div>
+
+    <div class="colunas-container">
+
+        <div class="coluna1-container">
+            <ul>
+                <li> <a href="#"></a> Audio Description </li>
+                <li> <a href="#"></a> Investor Relations </li>
+                <li> <a href="#"></a> Legal Notices </li>
+            </ul>
+        </div>
+        <div class="coluna2-container">
+            <ul>
+                <li> <a href="#"></a> Help centre </li>
+                <li> <a href="#"></a> Jobs </li>
+                <li> <a href="#"></a> Cokkies Preferences </li>
+            </ul>
+        </div>
+        <div class="coluna3-container">
+            <ul>
+                <li> <a href="#"></a> Gift Cards </li>
+                <li> <a href="#"></a> Terms Of Use </li>
+                <li> <a href="#"></a> Corporate Information </li>
+            </ul>
+        </div>
+        <div class="coluna4-container">
+            <ul>
+                <li> <a href="#"></a> Media centre </li>
+                <li> <a href="#"></a> Privacy </li>
+                <li> <a href="#"></a> Contact Us </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <button class="btn"> Service Code </button>
+
+
+    <h2> @content direitos reservados </h2>
+</footer>
+
+
+<script src="../js/script.js"></script>    
+</body>
+</html>  -->
+
+
+
+/*
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 48, 48);
+}
+
+
+header{
+    padding: 10px;
+    margin: auto;
+    gap: 10px;
+}
+
+/*MENU PRINCIPAL*/
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.TOPNAV-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: rgb(136, 30, 30);
+}
+.TOPNAV-container a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.TOPNAV-container a:hover{
+    background-color: black;
+    box-shadow: #f2f2f2;
+    color: aqua;
+}
+
+.TOPNAV-container ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+.TOPNAV-container ul li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.TOPNAV-container ul li{
+    list-style: none;
+}
+
+
+
+.menu-pequeno-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 5px;
+    gap: 10px;
+}
+
+/*FIM DO MENU SUPERIOR PRINCIPAL E PEQUENO*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+/*AQUI COMEÇA O HERO TUTORIAL DA W3SCHOOLS ONDE VAI FICAR O BANNER*/
+.hero-container {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imagens/banner2.jpeg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*.hero-container { CODIGO ANTIGO E COM ERROS CODIGO CERTO ACIMA
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5), url(../imagens/banner2.jpeg));
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}*/
+.hero-text {
+    position: absolute;
+    left: 5%;
+    bottom: 40px;
+    color: white;
+    max-width: 450px;
+}
+/*.hero-text { CODIGO CORRIGIDO ACIMA ESSE NOSSO DEU ERRO
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}*/
+
+/*AQUI FINALIZA O HERO */
+
+
+
+/*ABAIXO O SEGUNDO MENU*/
+
+.menu2-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5%;
+    flex-wrap: nowrap;
+    gap: 30px;
+    
+}
+/*.explore p:hover{
+    box-shadow: rgb(36, 36, 248);
+}*/
+/*FIM DO SEGUNDO MENU*/
+
+
+
+
+/*BLOCO DE DIVS DE FILMES MENUS NO CASO*/
+/*.KDRAMA-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.filmes-KDRAMA{
+    box-sizing: border-box;
+    border: solid brown;
+    border-radius: 2px;
+    width: 380px;
+    height: auto;    
+}
+.filmes-KDRAMA img {
+    width: 100%;
+    height: auto;
+}
+.filmes-KDRAMA:hover {
+    background-color: black;
+    box-shadow: black;
+}
+.filmes-KDRAMA h2:hover{
+    background-color: yellow;
+    box-shadow: rgb(104, 104, 48);
+}
+
+
+
+.BOREDOMBUSTERS-container{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.filmes-BOREDOMBUSTERS{
+    border: solid rgb(42, 99, 165);
+    border-radius: 2px;
+    width: 380px;
+    height: auto;
+}
+.filmes-BOREDOMBUSTERS img {
+    width: 100%;
+    height: auto;
+}
+.filmes-BOREDOMBUSTERS:hover{
+    background-color: aliceblue;
+    box-shadow: rgb(56, 81, 104);
+}
+.filmes-BOREDOMBUSTERS h2:hover{
+    background-color: yellow;
+    box-shadow: rgb(100, 100, 66);
+}
+
+
+/*
+.top10-container { /*aqui temos que dividir a imagem em 2 e colocar o numero gigante ao lado da imagem*/
+  /*  margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+/*.top10-container h3{
+    font-size: x-large;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.top10-container img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+.chosenFamily-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.filmes-chosenFamily{
+    border: solid rgb(81, 165, 42);
+    border-radius: 2px;
+    width: 380px;
+    height: auto;
+}
+
+.filmes-chosenFamily:hover{
+    background-color: aquamarine;
+    box-shadow: rgb(11, 81, 102);
+}
+
+.filmes-chosenFamily img{
+    width: 100%;
+    height: auto;
+}
+*/ /*TODO O CODIGO ACIMA É NOSSO*/
+.btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+    color: red;
+    background-color: #999797;
+    box-shadow: whitesmoke;
+}
+
+footer{
+    background-color: #666;
+    text-align: center;
+    padding: 5px;
+}
+footer h2{
+    justify-content: left;
+}
+.icones-redes-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.icones-redes-container {
+    border-radius: 2px;
+    box-shadow: none;
+    width: 75px;
+    height: auto;
+}
+.icone img{
+    width: 100%;
+    height: auto;
+}
+
+.icone:hover{
+    border: black;
+
+}
+
+.colunas-container {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    gap: 10px;
+    margin: 30px;
+    padding: 30px;
+}
+.coluna1-container ul li,
+.coluna2-container ul li,
+.coluna3-container ul li,
+.coluna4-container ul li{
+    list-style: none;
+}
+
+ESTILO DE PAGINA INSPIRADO NO IMDB
+/*
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #141414;
+            padding: 15px 4%;
+            border-bottom: 1px solid #222;
+        }
+
+        .menu-principal {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-container {
+            width: 110px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .TOPNAV-container nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .TOPNAV-container nav ul li a {
+            color: #e5e5e5;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .TOPNAV-container nav ul li a:hover {
+            color: #b3b3b3;
+        }
+
+        .menu-pequeno-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 16px;
+        }
+
+        /* MAIN ESTILO IMDb */
+        .imdb-main {
+            padding: 30px 4%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .imdb-container-principal {
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            background-color: #000000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Lado Esquerdo: Banner Principal */
+        .imdb-banner-area {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .imdb-video-player {
+            width: 100%;
+            height: 420px;
+            background-color: #1a1a1a;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .img-destaque {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .imdb-acoes-abaixo {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+
+        /* Lado Direito: Card de Informações */
+        .imdb-info-card {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+
+        .card-header-mini {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .card-header-mini img {
+            width: 70px;
+            height: 95px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .card-header-mini h3 {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .card-header-mini p {
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        .card-descricao h4 {
+            font-size: 14px;
+            color: #f5c518; /* Amarelo IMDb */
+            margin-bottom: 8px;
+        }
+
+        .card-descricao p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        /* Seção de Relacionados */
+        .imdb-relacionados-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .imdb-relacionados-section h3 {
+            font-size: 18px;
+            color: #f5c518;
+            border-left: 4px solid #f5c518;
+            padding-left: 8px;
+        }
+
+        .lista-relacionados {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .item-relacionado {
+            width: 180px;
+            flex-shrink: 0;
+            background-color: #1a1a1a;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .item-relacionado img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .item-relacionado p {
+            padding: 8px;
+            font-size: 12px;
+            color: #ddd;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #141414;
+            color: #808080;
+            padding: 40px 4%;
+            border-top: 1px solid #222;
+            margin-top: 40px;
+        }
+
+        .icones-redes-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .icone img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .colunas-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+            list-style: none;
+            padding: 0;
+        }
+
+        .colunas-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .colunas-container li {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        footer a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            background-color: transparent;
+            color: #808080;
+            font-size: 12px;
+            padding: 6px 10px;
+            border: 1px solid #808080;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            color: white;
+            border-color: white;
+        }
+
+        footer h2 {
+            font-size: 11px;
+            font-weight: normal;
+            margin-top: 20px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 900px) {
+            .imdb-container-principal {
+                flex-direction: column;
+            }
+            .imdb-video-player {
+                height: 250px;
+            }
+            .colunas-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+  */
+
+
+
+  TESTE DE PAGINA DOS FILMES :
+  <!DOCTYPE html>
+<!--<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Filme - Netflix</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #141414;
+            padding: 15px 4%;
+            border-bottom: 1px solid #222;
+        }
+
+        .menu-principal {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-container {
+            width: 110px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .TOPNAV-container nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .TOPNAV-container nav ul li a {
+            color: #e5e5e5;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .TOPNAV-container nav ul li a:hover {
+            color: #b3b3b3;
+        }
+
+        .menu-pequeno-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 16px;
+        }
+
+        /* MAIN ESTILO IMDb */
+        .imdb-main {
+            padding: 30px 4%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .imdb-container-principal {
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            background-color: #000000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Lado Esquerdo: Banner Principal */
+        .imdb-banner-area {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .imdb-video-player {
+            width: 100%;
+            height: 420px;
+            background-color: #1a1a1a;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .img-destaque {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .imdb-acoes-abaixo {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+
+        /* Lado Direito: Card de Informações */
+        .imdb-info-card {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+
+        .card-header-mini {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .card-header-mini img {
+            width: 70px;
+            height: 95px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .card-header-mini h3 {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .card-header-mini p {
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        .card-descricao h4 {
+            font-size: 14px;
+            color: #f5c518; /* Amarelo IMDb */
+            margin-bottom: 8px;
+        }
+
+        .card-descricao p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        /* Seção de Relacionados */
+        .imdb-relacionados-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .imdb-relacionados-section h3 {
+            font-size: 18px;
+            color: #f5c518;
+            border-left: 4px solid #f5c518;
+            padding-left: 8px;
+        }
+
+        .lista-relacionados {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .item-relacionado {
+            width: 180px;
+            flex-shrink: 0;
+            background-color: #1a1a1a;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .item-relacionado img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .item-relacionado p {
+            padding: 8px;
+            font-size: 12px;
+            color: #ddd;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #141414;
+            color: #808080;
+            padding: 40px 4%;
+            border-top: 1px solid #222;
+            margin-top: 40px;
+        }
+
+        .icones-redes-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .icone img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .colunas-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+            list-style: none;
+            padding: 0;
+        }
+
+        .colunas-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .colunas-container li {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        footer a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            background-color: transparent;
+            color: #808080;
+            font-size: 12px;
+            padding: 6px 10px;
+            border: 1px solid #808080;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            color: white;
+            border-color: white;
+        }
+
+        footer h2 {
+            font-size: 11px;
+            font-weight: normal;
+            margin-top: 20px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 900px) {
+            .imdb-container-principal {
+                flex-direction: column;
+            }
+            .imdb-video-player {
+                height: 250px;
+            }
+            .colunas-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <--!  (<-- HEADER -->)<!--
+    <header>
+        <div class="menu-principal">
+            <div class="logo-container">
+                <a href="../../index.html"><img src="../../imagens/Icones/NETFLIX.jpg" alt="Netflix"></a>
+            </div>
+            <div class="TOPNAV-container">
+                <nav>
+                    <ul>
+                        <li><a href="../tvshows.html">TV SHOWS</a></li>
+                        <li><a href="../movies.html">MOVIES</a></li>
+                        <li><a href="../games.html">GAMES</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-pequeno-container">
+                <span>🔍</span>
+                <span>🔔</span>
+                <span>👤</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTEÚDO (ESTILO IMDb) --> <!--
+    <main class="imdb-main">
+        <div class="imdb-container-principal">
+            
+            <!-- Banner / Cena Principal -->
+            <div class="imdb-banner-area">
+                <div class="imdb-video-player">
+                    <img src="../../imagens/filmes/filme1.jpg" alt="Banner do Filme" class="img-destaque">
+                </div>
+                <div class="imdb-acoes-abaixo">
+                    <span>❤️ Curtir</span>
+                    <span>⭐ Avaliar</span>
+                </div>
+            </div>
+
+            <!-- Informações do Lado Direito -->
+            <div class="imdb-info-card">
+                <div class="card-header-mini">
+                    <img src="../../imagens/filmes/filme1.jpg" alt="Miniatura">
+                    <div>
+                        <h3>Nome do Filme (2026)</h3>
+                        <p>TV-MA | Ação, Suspense</p>
+                    </div>
+                </div>
+                <div class="card-descricao">
+                    <h4>Sinopse / Destaque</h4>
+                    <p>Descrição detalhada da história do filme, enredo e contexto principal da obra exibida no player.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main> 
+-->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="icones-redes-container">
+            <div class="icone"><a href="#"><img src="../../imagens/Icones/instagram (1).png" alt="Insta"></a></div>
+            <div class="icone"><a href="#"><img src="../../imagens/Icones/facebook.png" alt="Face"></a></div>
+            <div class="icone"><a href="#"><img src="../../imagens/Icones/youtube.png" alt="YouTube"></a></div>
+        </div>
+
+        <div class="colunas-container">
+            <ul>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookies Preferences</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Corporate Information</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <button class="btn">Service Code</button>
+        <h2>@content direitos reservados</h2>
+    </footer>
+
+</body>
+</html>__-->

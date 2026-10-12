@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Popular - Netflix</title>
+    <style>
+        * { padding: 0; margin: 0; box-sizing: border-box; }
+        body { background-color: #141414; color: white; font-family: Arial, sans-serif; }
+        header { background-color: #141414; padding: 15px 4%; border-bottom: 1px solid #222; position: fixed; width: 100%; top: 0; z-index: 100; }
+        .menu-principal { display: flex; align-items: center; justify-content: space-between; }
+        .logo-container img { width: 100px; display: block; }
+        nav ul { display: flex; list-style: none; gap: 15px; }
+        nav ul li a { color: #aaa; text-decoration: none; font-size: 13px; font-weight: bold; }
+        nav ul li a.active { color: #f5c518; }
+
+        main { margin-top: 90px; padding: 30px 4%; display: flex; flex-direction: column; gap: 30px; }
+        .trending-card { display: flex; gap: 20px; background: #1a1a1a; padding: 15px; border-radius: 8px; align-items: center; }
+        .trending-card img { width: 180px; height: 110px; object-fit: cover; border-radius: 4px; }
+        .trending-info h2 { font-size: 18px; margin-bottom: 5px; color: #f5c518; }
+        .trending-info p { font-size: 13px; color: #aaa; }
+
+        footer { background: #141414; padding: 30px 4%; color: #777; text-align: center; margin-top: 50px; font-size: 12px; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-principal">
+            <div class="logo-container"><img src="../imagens/Icones/NETFLIX.jpg" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="../html/home.html"> HOME  </a></li>
+                    <li><a href="tvshows.html">TV SHOWS</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="games.html">GAMES</a></li>
+                    <li><a href="news&popular.html" class="active">NEWS & POPULAR</a></li>
+                    <li><a href="mylist.html">MY LIST</a></li>
+                    <li><a href="browser.html">BROWSER</a></li>
+                </ul>
+            </nav>
+            <div style="font-size: 16px;">🔍 🔔 👤</div>
+        </div>
+    </header>
+
+    <main>
+        <h1>🔥 Em Alta Hoje</h1>
+        <div class="trending-card">
+            <img src="../imagens/filmes/filme16.jpg" alt="">
+            <div class="trending-info">
+                <h2>#1 Mais Assistido da Semana</h2>
+                <p>Descubra o título que bateu recordes de audiência globalmente nos últimos 7 dias. Uma trama eletrizante que prende do início ao fim.</p>
+            </div>
+        </div>
+        <div class="trending-card">
+            <img src="../imagens/filmes/filme17.jpg" alt="">
+            <div class="trending-info">
+                <h2>#2 Lançamento Mais Esperado</h2>
+                <p>A continuação que os fãs tanto pediram chegou ao catálogo com novos episódios e revelações surpreendentes.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>@content direitos reservados</footer>
+</body>
+</html>
