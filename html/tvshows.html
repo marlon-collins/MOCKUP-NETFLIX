@@ -7,6 +7,7 @@
     <style>
         * { padding: 0; margin: 0; box-sizing: border-box; }
         body { background-color: #141414; color: white; font-family: Arial, sans-serif; }
+
         header { background-color: #141414; padding: 15px 4%; border-bottom: 1px solid #222; position: fixed; width: 100%; top: 0; z-index: 100; }
         .menu-principal { display: flex; align-items: center; justify-content: space-between; }
         .logo-container img { width: 100px; display: block; }
@@ -19,6 +20,23 @@
         .serie-card { min-width: 170px; border-radius: 6px; overflow: hidden; background: #1f1f1f; }
         .serie-card img { width: 100%; height: 240px; object-fit: cover; }
         .serie-card p { padding: 8px; font-size: 13px; text-align: center; }
+
+        .hero {
+            width: 100%;
+            height:350px; 
+            overflow: hidden;           
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;            
+        }
+        .hero video {
+            width: 300vh;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
+            display: block;            
+        }
 
         footer { background: #141414; padding: 30px 4%; color: #777; text-align: center; margin-top: 50px; font-size: 12px; border-top: 1px solid #222; }
     </style>
@@ -43,14 +61,57 @@
     </header>
 
     <main>
-        <h1>📺 Séries aclamadas pela crítica</h1>
+        <h1>📺 Catalogo de Series </h1>
+
+        <div class="hero"><video src="../imagens/video.mp4" type="video/mp4" autoplay></video></div>
+
         <div class="series-grid">
-            <div class="serie-card"><img src="../imagens/filmes/filme18.jpg" alt=""><p>Temporada 1</p></div>
-            <div class="serie-card"><img src="../imagens/filmes/filme19.jpg" alt=""><p>Temporada 3</p></div>
-            <div class="serie-card"><img src="../imagens/filmes/filme20.jpg" alt=""><p>Minissérie</p></div>
-            <div class="serie-card"><img src="../imagens/filmes/filme21.png" alt=""><p>Temporada 2</p></div>
+
+            <div class="serie-card"><img src="../imagens/Tvshows/FANTASIA.jpg" alt=""><p> FANTASIA </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/ACAO.jpg" alt=""><p> AÇÃO </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/TERROR.jpg" alt=""><p> TERROR </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/AVENTURA.jpg" alt=""><p> AVENTURA </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/ROMANCE.jpg" alt=""><p> ROMANCE </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/COMEDIA.jpg" alt=""><p> COMEDIA </p></div>
+            <div class="serie-card"><img src="../imagens/Tvshows/FICCAO CIENTIFICA.jpg" alt=""><p> FICÇÃO </p></div>
         </div>
+
+        <div>
+            <div class="serie-card"><h2> FANTASIA </h2>
+
+            </div>
+            <br>
+            <div class="serie-card"><h2> AÇÃO </h2>
+            
+            </div>
+            <br>
+            <div class="serie-card"><h2> TERROR </h2>
+            
+            </div>
+            <br>    
+            <div class="serie-card"><h2> AVENTURA </h2>
+            
+            </div>
+            <br>
+            <div class="serie-card"><h2> ROMANCE </h2>
+            
+            </div>
+            <br>
+            <div class="serie-card"><h2> COMEDIA </h2>
+            
+            </div>
+            <br>
+            <div class="serie-card"><h2> FICÇÃO </h2>
+            
+            </div>
+
+        </div>
+
+
+
     </main>
+
+
 
     <footer>@content direitos reservados</footer>
 </body>
