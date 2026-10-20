@@ -19,14 +19,17 @@
 
 
 
-// let descrição = [
+
+
+// let descricao = [
 //     { "id": 1,
 //       "titulo": "A Origem",
 //       "titulo_original": "Inception",
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//       "Duracao":"1h20min"
 //     },
 
 //     { "id": 1,
@@ -35,7 +38,8 @@
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//       "Duracao":"1h20min"
 //     },
 
 //     { "id": 1,
@@ -44,7 +48,8 @@
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//       "Duracao":"1h20min"
 //     },
 
 //     { "id": 1,
@@ -53,7 +58,8 @@
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//       "Duracao":"1h20min"
 //     },
 
 //     { "id": 1,
@@ -62,7 +68,8 @@
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//       "Duracao":"1h20min"
 //     },
 
 //     { "id": 1,
@@ -71,29 +78,52 @@
 //       "ano": 2010,
 //       "genero": ["Ficção Científica", "Ação", "Suspense"],
 //       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO."
-//        "Duração":"1h20min",
+//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+//        "Duracao":"1h20min"
 //     },
 // ];
+// function descrip(){
 
-// function descrição(){
-//     let text "<ul>";
-//     for (let i=0; i< descrição.length;i++)
-//         text += "<li>" + descrição[i] + "</li>"
+//     let text = "";
+
+//     for (let i in descricao){
+//         text += "<div class="descrisao"> <ul>" + 
+//         "<li>" + descricao[i].titulo + "</li>" + "<br>" +
+//         "<li>" + descricao[i].titulo_original + "</li>" + "<br>" +
+//         "<li>" + descricao[i].ano + "</li>" + "<br>" +
+//         "<li>" + descricao[i].genero + "</li>" + "<br>" +
+//         "<li>" + descricao[i].descricao + "</li>" + "<br>" +
+//         "<li>" + descricao[i].Duracao + "</li>" + "<br>"+
+        
+//         "</ul> </div>" ;
+
+        
 // };
-// document.getElementById(lista-filmes).innerHTML = text + "</ul>;"
+// document.getElementById("lista-filmes").innerHTML = text;
+// }
+// descrip();
 
 
 // //função chamar as imagens
-// function imagens (...imagens)
-// {
-// const imagens = [ "imagem.jpeg"]; 
-// let text = "";
-// for (let i=0 ;i< imagens.length; i++){
-//     text += "<div>" + "<img src="/imagens/filmes/ " + imagens[i] ;
-// }
 
-// document.getElementById(lista-filmes).innerHTML = text;
+// const imagens = [ "filme1.jpg", "filme2.jpg", "filme3.jpg", "filme4.jpg"]; 
+
+// function chamaImagem (){
+
+// let pic = "";
+
+// for (let x in imagens){
+//     pic += '<div class="capa1"> + "<img src="../../imagens/filmes/ " + imagens[i] + ">" + </div>';
+    
+// }
+// document.getElementById("lista-filmes").innerHTML = pic;
+
+// }
+// chamaImagem();
+
+
+
+
 
 //2ºTENTATIVA//
 
@@ -347,100 +377,100 @@
 
 // fazendo em lista e com o outro atributo de document.getElementById().desse ponto pra frente como subir duas coisas sem uma sobrepor a outra
 //COMO LISTA
-// const filmes = [
+const filmes = [
 
-//     {
-//         id: 1,
-//         titulo: "A Origem",
-//         titulo_original: "Inception",
-//         ano: 2010,
-//         genero: ["Ficção Científica", "Ação", "Suspense"],
-//         diretor: "Christopher Nolan",
-//         duracao: "2h28min",
-//         imagem: "../../imagens/filmes/a-origem.jpg",
-//         descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
-//     },
+    {
+        id: 1,
+        titulo: "A Origem",
+        titulo_original: "Inception",
+        ano: 2010,
+        genero: ["Ficção Científica", "Ação", "Suspense"],
+        diretor: "Christopher Nolan",
+        duracao: "2h28min",
+        imagem: "../../imagens/filmes/a-origem.jpg",
+        descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
+    },
 
-//     {
-//         id: 2,
-//         titulo: "Star Wars: O Império Contra-Ataca",
-//         titulo_original: "The Empire Strikes Back",
-//         ano: 1980,
-//         genero: ["Ficção Científica", "Aventura"],
-//         diretor: "Irvin Kershner",
-//         duracao: "2h04min",
-//         imagem: "../../imagens/filmes/filme1.jpg",
-//         descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
-//     },
+    {
+        id: 2,
+        titulo: "Star Wars: O Império Contra-Ataca",
+        titulo_original: "The Empire Strikes Back",
+        ano: 1980,
+        genero: ["Ficção Científica", "Aventura"],
+        diretor: "Irvin Kershner",
+        duracao: "2h04min",
+        imagem: "../../imagens/filmes/filme1.jpg",
+        descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
+    },
 
-//     {
-//         id: 3,
-//         titulo: "O Hobbit: O início de uma jornada",
-//         titulo_original: "The Hobbit",
-//         ano: 2012,
-//         genero: ["Fantasia", "Aventura"],
-//         diretor: "Peter Jackson",
-//         duracao: "2h49min",
-//         imagem: "../../imagens/filmes/o-hobbit.jpg",
-//         descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
-//     }
+    {
+        id: 3,
+        titulo: "O Hobbit: O início de uma jornada",
+        titulo_original: "The Hobbit",
+        ano: 2012,
+        genero: ["Fantasia", "Aventura"],
+        diretor: "Peter Jackson",
+        duracao: "2h49min",
+        imagem: "../../imagens/filmes/o-hobbit.jpg",
+        descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
+    }
 
-// ];
-
-
-// function renderizarFilmes() {
-
-//     let html = "";
-
-//     for (let i = 0; i < filmes.length; i++) {
-
-//         html += `
+];
 
 
-//             <article class="card-filme">
+function renderizarFilmes() {
 
-//                 <div class="filme-imagem">
+    let html = "";
 
-//                     <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
+    for (let i = 0; i < filmes.length; i++) {
 
-//                 </div>
+        html += `
 
-//                 <div class="filme-descricao">
 
-//                     <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
+            <article class="card-filme">
 
-//                     <ul>
-//                         <li>
-//                         <strong>Título original:</strong>
-//                             ${filmes[i].titulo_original}
-//                         </li>
-//                         <li>
-//                             <strong>Diretor:</strong>
-//                             ${filmes[i].diretor}
-//                         </li>
-//                         <li>
-//                             <strong>Duração:</strong>
-//                             ${filmes[i].duracao}
-//                         </li>
-//                         <li>
-//                             <strong>Gêneros:</strong>
-//                             ${filmes[i].genero.join(", ")}
-//                         </li>
-//                     </ul>
-//                         <h3>Sinopse / Destaque</h3>
-//                         <p>${filmes[i].descricao}</p>
+                <div class="filme-imagem">
 
-//                 </div>
+                    <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
 
-//             </article>
-//         `;
+                </div>
 
-//     }
+                <div class="filme-descricao">
 
-//     document.getElementById("lista-filmes").innerHTML = html;
+                    <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
 
-// }
-// renderizarFilmes();
+                    <ul>
+                        <li>
+                        <strong>Título original:</strong>
+                            ${filmes[i].titulo_original}
+                        </li>
+                        <li>
+                            <strong>Diretor:</strong>
+                            ${filmes[i].diretor}
+                        </li>
+                        <li>
+                            <strong>Duração:</strong>
+                            ${filmes[i].duracao}
+                        </li>
+                        <li>
+                            <strong>Gêneros:</strong>
+                            ${filmes[i].genero.join(", ")}
+                        </li>
+                    </ul>
+                        <h3>Sinopse / Destaque</h3>
+                        <p>${filmes[i].descricao}</p>
+
+                </div>
+
+            </article>
+        `;
+
+    }
+
+    document.getElementById("lista-filmes").innerHTML = html;
+
+}
+renderizarFilmes();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -464,9 +494,9 @@
 //     document.getElementById("TOPNAV").innerHTML = menuNav;
 // }
 
-// chamaMenu();
 
 
+chamaMenu();
 const menuNav =[
     {
         nome: "HOME",
@@ -475,7 +505,7 @@ const menuNav =[
     },
     {
         nome: "TV SHOWS",
-        pagina:"../tvshows.html"
+        pagina:"../html/tvshows.html"
 
     },
     {
