@@ -5,6 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/sofilmes/filmes.css">
     <title>Detalhes do Filme </title>
+    <style>
+        #lista-filmes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card-filme {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 20px;
+
+    padding: 16px;
+    background: #080808;
+    border-radius: 8px;
+}
+
+.filme-imagem {
+    min-width: 0;
+}
+
+.filme-imagem img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.filme-descricao {
+    min-width: 0;
+    padding: 12px;
+    background: #1c1c1c;
+    color: #fff;
+    border-radius: 6px;
+
+    overflow-wrap: anywhere;
+}
+
+.filme-descricao h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.filme-descricao h3 {
+    color: #e50914;
+    font-size: 15px;
+    margin: 18px 0 10px;
+}
+
+.filme-descricao p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .card-filme {
+        grid-template-columns: 1fr;
+    }
+
+    .filme-imagem img {
+        height: auto;
+        max-height: 400px;
+        object-fit: contain;
+    }
+}
+    </style>
     
 </head>
 <body>
@@ -33,44 +103,39 @@
         </div>
     </header>
 
+
+
+
+
     <!-- MAIN CONTEÚDO (ESTILO IMDb) -->
     <main class="imdb-main">
-        <div class="imdb-container-principal">
-            
-            <!-- Banner / Cena Principal -->
-            <div class="imdb-banner-area">
-                <div class="imdb-video-player">
-                    <img src="../../imagens/filmes/filme1.jpg" alt="Banner do Filme" class="img-destaque">
-                </div>
-                <div class="imdb-acoes-abaixo">
-                    <span>❤️ Curtir</span>
-                    <span>⭐ Avaliar</span>
-                </div>
-            </div>
 
-            <!-- Informações do Lado Direito -->
-            <div class="imdb-info-card">
-                <div class="card-header-mini">
-                    <img src="../../imagens/filmes/filme1.jpg" alt="Miniatura">
-                    <div>
-                        <h3>Star Wars: O Império Contra-ataca(1980)</h3>
-                        <p> Aventura, Ficção Científica
-                            Direção: Irvin Kershner | Roteiro Lawrence Kasdan, George Lucas
-                            Elenco: Mark Hamill, Harrison Ford, Carrie Fisher
-                            Título original Star Wars: Episode V - The Empire Strikes Back
-                        </p>
-                    </div>
-                </div>
-                <div class="card-descricao">
-                    <h4>Sinopse / Destaque</h4>
-                    <p>Em Star Wars: Episódio V, as forças imperais comandadas por Darth Vader (David Prowse/James Earl Jones) lançam um ataque contra os membros da resistência, que são obrigados a fugir. Enquanto isso, Luke Skywalker (Mark Hamill) tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a "Força" e torná-lo um cavaleiro Jedi. No entanto, Darth Vader planeja levá-lo para o Lado Negro da "Força".</p>
-                </div>
-            </div>
+        <section id="catalogo-filmes">
 
-        </div>
+            <h1>Catálogo de Filmes</h1>
 
+            <!-- O JavaScript vai inserir os cartões aqui -->
+            <div id="lista-filmes"> </div>
+
+        </section>
 
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- FOOTER -->
     <footer>
@@ -107,5 +172,8 @@
         <h2>@content direitos reservados</h2>
     </footer>
 
+
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
