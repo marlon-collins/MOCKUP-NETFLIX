@@ -56,6 +56,9 @@ header {
     font-size: 16px;
 }
 
+
+
+
 /* MAIN ESTILO IMDb */
 .imdb-main {
     padding: 30px 4%;
@@ -83,7 +86,7 @@ header {
     gap: 10px;
 }
 
-.imdb-video-player {
+.imdb-video-player {/** Lado Esquerdo: Banner Principal *//*bannner cena principal imagem grande imdb -banner-area + imdb-video-player AQUI TEM IMDB-BANNER-AREA + CLASS IMDB-VIDEO-PLAYER*/
     width: 100%;
     height: 420px;
     background-color: #1a1a1a;
@@ -91,21 +94,22 @@ header {
     overflow: hidden;
 }
 
-.img-destaque {
+.img-destaque {/* ESSA IMAGEM DE ESTÁ DENTRO DA TAG IMG QUE ESTÁ NESSA DIV DE CIMA */
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.imdb-acoes-abaixo {
+/*.imdb-acoes-abaixo {
     display: flex;
     gap: 20px;
     font-size: 14px;
     color: #b3b3b3;
-}
+}*/
 
 /* Lado Direito: Card de Informações */
-.imdb-info-card {
+.imdb-info-card {/* AQUI VEM O TEXTO DO LADO DIREITO E DENTRO DAQUI TEM CLASS CARD-HEADER-MINI + CLASS CARD-DESCRICAO*/
+    
     flex: 1;
     background-color: #1a1a1a;
     padding: 20px;
