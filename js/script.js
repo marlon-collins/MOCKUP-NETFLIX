@@ -465,3 +465,69 @@
 // }
 
 // chamaMenu();
+
+
+const menuNav =[
+    {
+        nome: "HOME",
+        pagina:"../home.html"
+
+    },
+    {
+        nome: "TV SHOWS",
+        pagina:"../tvshows.html"
+
+    },
+    {
+        nome: "MOVIES",
+        pagina:"../movies.html"
+
+    },
+    {
+        nome: "GAMES",
+        pagina:"../games.html"
+
+    },
+    {
+        nome: "NEWS & POPULAR",
+        pagina:"../news&popular.html"
+
+    },
+    {
+        nome: "MY LIST ",
+        pagina:"../mylist.html"
+
+    },
+    {
+        nome: "BROWSER",
+        pagina:"../browser.html"
+
+    }
+];
+
+function chamaMenu (){
+
+    let menuNav2 = "";
+
+    for(let i in menuNav){
+        menuNav2 += "<div> <ul> <li> <a href=" + menuNav[i].pagina + ">" + menuNav[i].nome + "</a> </li> </ul> </div>";
+    }
+    document.getElementById("TOPNAV").innerHTML = menuNav2;
+}
+
+chamaMenu();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
