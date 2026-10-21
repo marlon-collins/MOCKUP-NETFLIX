@@ -377,100 +377,100 @@
 
 // fazendo em lista e com o outro atributo de document.getElementById().desse ponto pra frente como subir duas coisas sem uma sobrepor a outra
 //COMO LISTA
-const filmes = [
+// const filmes = [
 
-    {
-        id: 1,
-        titulo: "A Origem",
-        titulo_original: "Inception",
-        ano: 2010,
-        genero: ["Ficção Científica", "Ação", "Suspense"],
-        diretor: "Christopher Nolan",
-        duracao: "2h28min",
-        imagem: "../../imagens/filmes/a-origem.jpg",
-        descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
-    },
+//     {
+//         id: 1,
+//         titulo: "A Origem",
+//         titulo_original: "Inception",
+//         ano: 2010,
+//         genero: ["Ficção Científica", "Ação", "Suspense"],
+//         diretor: "Christopher Nolan",
+//         duracao: "2h28min",
+//         imagem: "../../imagens/filmes/a-origem.jpg",
+//         descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
+//     },
 
-    {
-        id: 2,
-        titulo: "Star Wars: O Império Contra-Ataca",
-        titulo_original: "The Empire Strikes Back",
-        ano: 1980,
-        genero: ["Ficção Científica", "Aventura"],
-        diretor: "Irvin Kershner",
-        duracao: "2h04min",
-        imagem: "../../imagens/filmes/filme1.jpg",
-        descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
-    },
+//     {
+//         id: 2,
+//         titulo: "Star Wars: O Império Contra-Ataca",
+//         titulo_original: "The Empire Strikes Back",
+//         ano: 1980,
+//         genero: ["Ficção Científica", "Aventura"],
+//         diretor: "Irvin Kershner",
+//         duracao: "2h04min",
+//         imagem: "../../imagens/filmes/filme1.jpg",
+//         descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
+//     },
 
-    {
-        id: 3,
-        titulo: "O Hobbit: O início de uma jornada",
-        titulo_original: "The Hobbit",
-        ano: 2012,
-        genero: ["Fantasia", "Aventura"],
-        diretor: "Peter Jackson",
-        duracao: "2h49min",
-        imagem: "../../imagens/filmes/o-hobbit.jpg",
-        descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
-    }
+//     {
+//         id: 3,
+//         titulo: "O Hobbit: O início de uma jornada",
+//         titulo_original: "The Hobbit",
+//         ano: 2012,
+//         genero: ["Fantasia", "Aventura"],
+//         diretor: "Peter Jackson",
+//         duracao: "2h49min",
+//         imagem: "../../imagens/filmes/o-hobbit.jpg",
+//         descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
+//     }
 
-];
-
-
-function renderizarFilmes() {
-
-    let html = "";
-
-    for (let i = 0; i < filmes.length; i++) {
-
-        html += `
+// ];
 
 
-            <article class="card-filme">
+// function renderizarFilmes() {
 
-                <div class="filme-imagem">
+//     let html = "";
 
-                    <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
+//     for (let i = 0; i < filmes.length; i++) {
 
-                </div>
+//         html += `
 
-                <div class="filme-descricao">
 
-                    <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
+//             <article class="card-filme">
 
-                    <ul>
-                        <li>
-                        <strong>Título original:</strong>
-                            ${filmes[i].titulo_original}
-                        </li>
-                        <li>
-                            <strong>Diretor:</strong>
-                            ${filmes[i].diretor}
-                        </li>
-                        <li>
-                            <strong>Duração:</strong>
-                            ${filmes[i].duracao}
-                        </li>
-                        <li>
-                            <strong>Gêneros:</strong>
-                            ${filmes[i].genero.join(", ")}
-                        </li>
-                    </ul>
-                        <h3>Sinopse / Destaque</h3>
-                        <p>${filmes[i].descricao}</p>
+//                 <div class="filme-imagem">
 
-                </div>
+//                     <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
 
-            </article>
-        `;
+//                 </div>
 
-    }
+//                 <div class="filme-descricao">
 
-    document.getElementById("lista-filmes").innerHTML = html;
+//                     <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
 
-}
-renderizarFilmes();
+//                     <ul>
+//                         <li>
+//                         <strong>Título original:</strong>
+//                             ${filmes[i].titulo_original}
+//                         </li>
+//                         <li>
+//                             <strong>Diretor:</strong>
+//                             ${filmes[i].diretor}
+//                         </li>
+//                         <li>
+//                             <strong>Duração:</strong>
+//                             ${filmes[i].duracao}
+//                         </li>
+//                         <li>
+//                             <strong>Gêneros:</strong>
+//                             ${filmes[i].genero.join(", ")}
+//                         </li>
+//                     </ul>
+//                         <h3>Sinopse / Destaque</h3>
+//                         <p>${filmes[i].descricao}</p>
+
+//                 </div>
+
+//             </article>
+//         `;
+
+//     }
+
+//     document.getElementById("lista-filmes").innerHTML = html;
+
+// }
+// renderizarFilmes();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -496,56 +496,56 @@ renderizarFilmes();
 
 
 
-chamaMenu();
-const menuNav =[
-    {
-        nome: "HOME",
-        pagina:"../home.html"
+// chamaMenu();
+// const menuNav =[
+//     {
+//         nome: "HOME",
+//         pagina:"../home.html"
 
-    },
-    {
-        nome: "TV SHOWS",
-        pagina:"../html/tvshows.html"
+//     },
+//     {
+//         nome: "TV SHOWS",
+//         pagina:"../html/tvshows.html"
 
-    },
-    {
-        nome: "MOVIES",
-        pagina:"../movies.html"
+//     },
+//     {
+//         nome: "MOVIES",
+//         pagina:"../movies.html"
 
-    },
-    {
-        nome: "GAMES",
-        pagina:"../games.html"
+//     },
+//     {
+//         nome: "GAMES",
+//         pagina:"../games.html"
 
-    },
-    {
-        nome: "NEWS & POPULAR",
-        pagina:"../news&popular.html"
+//     },
+//     {
+//         nome: "NEWS & POPULAR",
+//         pagina:"../news&popular.html"
 
-    },
-    {
-        nome: "MY LIST ",
-        pagina:"../mylist.html"
+//     },
+//     {
+//         nome: "MY LIST ",
+//         pagina:"../mylist.html"
 
-    },
-    {
-        nome: "BROWSER",
-        pagina:"../browser.html"
+//     },
+//     {
+//         nome: "BROWSER",
+//         pagina:"../browser.html"
 
-    }
-];
+//     }
+// ];
 
-function chamaMenu (){
+// function chamaMenu (){
 
-    let menuNav2 = "";
+//     let menuNav2 = "";
 
-    for(let i in menuNav){
-        menuNav2 += "<div> <ul> <li> <a href=" + menuNav[i].pagina + ">" + menuNav[i].nome + "</a> </li> </ul> </div>";
-    }
-    document.getElementById("TOPNAV").innerHTML = menuNav2;
-}
+//     for(let i in menuNav){
+//         menuNav2 += "<div> <ul> <li> <a href=" + menuNav[i].pagina + ">" + menuNav[i].nome + "</a> </li> </ul> </div>";
+//     }
+//     document.getElementById("TOPNAV").innerHTML = menuNav2;
+// }
 
-chamaMenu();
+// chamaMenu();
 
 
 
