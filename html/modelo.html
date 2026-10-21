@@ -257,7 +257,7 @@
     </div>
 </header>
 <!-- FIM DO header -->
-
+<h1> ESSA PAGINA APRESENTAREMOS O TESTE COM STAR WARS - SAGA </h1>
 
 <main>
 
@@ -266,7 +266,7 @@
     <div class="capa-filme"> <img src="../imagens/filmes/" alt=""> </div>
 
     <!--DESCRIÇÃO LADO ESQUERO-->
-    <div class="descricao"> 
+    <div class="descricao" id="Descricao"> 
         <ul>
             <li> <span>Titulo:</span>  </li>
             <li> <span>Diretor:</span> </li>
@@ -352,6 +352,134 @@
 </footer>
 <script src="../js/script.js">
 
+    const caixaCard = [
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+        
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
+
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregorLiam NeesonNatalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        }
+
+    ];
+
+    function chamaDescrip (){
+
+        let text="";
+
+        for (let i=0; i<caixaCard.length; i++){
+            text += '<div class="container-principal" id="bloco-card">'+
+    
+    '<div class="capa-filme"> <img src="../imagens/filmes/ " '+ caixaCard[i].Capa + '>' + '</div>'+
+
+   
+    '<div class="descricao" id="Descricao"> '+
+        '<ul>'+
+            '<li> <span> Titulo: </span>' + caixaCard[i].Titulo +  '</li>'+
+            '<li> <span> Diretor: </span>' + caixaCard[i].Diretor + '</li>'+
+            '<li> <span> Elenco: </span>' + caixaCard[i].Elenco + '</li>'+
+            '<li> <span> Genero: </span>' + caixaCard[i].Genero + '</li>'+
+           ' <li> <span> Duração: </span>' + caixaCard[i].Duracao + '</li>'+
+           ' <li> <span> Ano: </span>' + caixaCard[i].Ano + '</li>'+
+        '</ul>'+
+        '<h3>SINOPSE:</h3>'+
+        '<p> </p>'+
+    '</div>'+
+'</div>';
+        }
+        document.getElementById("bloco-card").innerHTML = text;
+    };
 </script>
 
 </body>
