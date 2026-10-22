@@ -1332,3 +1332,10 @@ ESTILO DE PAGINA INSPIRADO NO IMDB
         document.getElementById("menu-topo").innerHTML = text2;
     }
     chamaMenu();
+
+    ANOTAÇÕES DE ORIENTAÇÃO DE ONDE COMEÇAM OS EIXOS NO CSS PRA CONSEGUIRMOS MUDAR ESQUERDA DIREITA , ACIMA ABAIXO .
+     /*box-shadow: 12px 0 20px black;	Sombra deslocada para a direita
+        box-shadow: -12px 0 20px black;	Sombra deslocada para a esquerda
+        box-shadow: 0 12px 20px black;	Sombra deslocada para baixo
+        box-shadow: 0 -12px 20px black;	Sombra deslocada para cima
+        box-shadow: 0 0 20px black;	Sombra sem deslocamento, espalhada ao redor*/

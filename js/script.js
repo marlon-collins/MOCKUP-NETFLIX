@@ -1,563 +1,173 @@
+const caixaCard = [
+        {
+            Capa: "starwars1.png",
+            Titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregor,Liam Neeson,Natalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 16 min",
+            Ano: "1999",
+            Sinopse: "Dois cavaleiros Jedi escapam de um bloqueio hostil para procurar aliados e encontram um jovem que pode trazer equilíbrio à Força, mas os anteriormente inativos Sith ressurgem para reivindicar sua antiga glória."
+        },
 
-//criar um array de objeto
+        {
+            Capa: "starwars2.jpg",
+            Titulo: "Star Wars: Episódio II - Ataque dos Clones",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregor,Liam Neeson,Natalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 22 min",
+            Ano: "2002",
+            Sinopse: "Dez anos após o primeiro encontro, Anakin Skywalker tem um romance proibido com Padmé Amidala, enquanto Obi-Wan Kenobi descobre um exército secreto de clones criado para os Jedi."
+        },
 
-//function
-//variavel
-//variavel que recebe
+        {
+            Capa: "starwars3.jpg",
+            Titulo: "Star Wars: Episódio III - A Vingança dos Sith",
+            Diretor: "George Lucas",
+            Elenco: "Ewan McGregor,Liam Neeson,Natalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 20 min",
+            Ano: "2005",
+            Sinopse: "Três anos após o início das Guerras Clônicas, Obi-Wan Kenobi persegue uma nova ameaça, enquanto Anakin Skywalker é atraído pelo Chanceler Palpatine para uma conspiração sinistra para governar a galáxia."
+        },
 
+        {
+            Capa: "starwars4.png",
+            Titulo: "Star Wars: Episódio IV - Uma Nova Esperança",
+            Diretor: "George Lucas",
+            Elenco: "Mark Hamill,Harrison Ford,Carrie Fisher",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 1 min",
+            Ano: "1977",
+            Sinopse: "Luke Skywalker une forças com um cavaleiro Jedi, um piloto arrogante, um Wookiee e dois andróides para salvar a galáxia da estação de batalha destruidora do Império, enquanto tenta resgatar a Princesa Leia do misterioso Darth Vader."
+        },
 
-//for - in 2 loops
-//let text pra receber o TextDecoder tem que receber a tag ul dentro do for chama li e no getelement o fechamento da ul 
-//fora do loop
+        {
+            Capa: "starwars5.jpg",
+            Titulo: "Star Wars: Episódio V - O Império Contra-Ataca",
+            Diretor: "Irvin Kershner",
+            Elenco: "Ewan McGregor,Liam Neeson,Natalie Portman",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 4 min",
+            Ano: "1980",
+            Sinopse: "Depois que a Aliança Rebelde é dominada pelo Império, Luke Skywalker começa seu treinamento Jedi com Yoda, enquanto seus amigos são perseguidos por toda a galáxia por Darth Vader e pelo caçador de recompensas Boba Fett."
+        },
 
-//document.getElementById(ID).innerHTML = ctext += </ul> 
+        {
+            Capa: "starwars6.jpg",
+            Titulo: "Star Wars: Episódio VI - O Retorno de Jedi",
+            Diretor: "Richard Marquand",
+            Elenco: "Mark Hamill,Harrison Ford,Carrie Fisher",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 11 min",
+            Ano: "1983",
+            Sinopse: "Depois de resgatar Han Solo de Jabba, o Hutt, a Aliança Rebelde tenta destruir a segunda Estrela da Morte, enquanto Luke luta para ajudar Darth Vader a voltar do lado negro."
+        },
 
-//a função deve ser chamada lá do outro lado no html
+        {
+            Capa: "starwars7.jpg",
+            Titulo: "Star Wars: O Despertar da Força",
+            Diretor: "George Lucas",
+            Elenco: "Daisy Ridley,John Boyega,Oscar Isaac",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 18 min",
+            Ano: "2015",
+            Sinopse: "À medida que uma nova ameaça à galáxia surge, Rey, uma varredora do deserto, e Finn, um ex-stormtrooper, devem se juntar a Han Solo e Chewbacca na busca pela única esperança de restaurar a paz."
+        },
 
+        {
+            Capa: "starwars8.jpg",
+            Titulo: "Star Wars: Os Últimos Jedi",
+            Diretor: "Rian Johnson",
+            Elenco: "Daisy Ridley,John Boyega,Mark Hamill",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 32 min",
+            Ano: "2017",
+            Sinopse: "Rey desenvolve suas habilidades com a ajuda de Luke Skywalker, enquanto a Resistência se prepara para a batalha com a Primeira Ordem."
+        },
 
+        {
+            Capa: "starwars9.png",
+            Titulo: "Star Wars: A Ascensão Skywalker",
+            Diretor: "J.J. Abrams",
+            Elenco: "Daisy RidleyJohn BoyegaOscar Isaac",
+            Genero: "Ficção Cientifica",
+            Duracao: "2 h 21 min",
+            Ano: "2019",
+            Sinopse: "A Resistência sobrevivente enfrenta a Primeira Ordem mais uma vez."
+        },
 
+        {
+            Capa: "STARFIGHTER.jpg",
+            Titulo: "Star Wars: Starfighter",
+            Diretor: "Shawn Levy",
+            Elenco: "Aaron PierreRyan GoslingMia Goth",
+            Genero: "Ficção Cientifica",
+            Duracao: "infinito",
+            Ano: "2027",
+            Sinopse: "Uma nova aventura de Star Wars ambientada em um período inexplorado da galáxia muito, muito distante, revelando histórias e personagens inéditos desta icônica saga espacial."
+        }
 
+    ];
 
+    function chamaDescrip (){
 
+        let text="";
 
-
-// let descricao = [
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//       "Duracao":"1h20min"
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//       "Duracao":"1h20min"
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//       "Duracao":"1h20min"
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//       "Duracao":"1h20min"
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//       "Duracao":"1h20min"
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//        "Duracao":"1h20min"
-//     },
-// ];
-// function descrip(){
-
-//     let text = "";
-
-//     for (let i in descricao){
-//         text += "<div class="descrisao"> <ul>" + 
-//         "<li>" + descricao[i].titulo + "</li>" + "<br>" +
-//         "<li>" + descricao[i].titulo_original + "</li>" + "<br>" +
-//         "<li>" + descricao[i].ano + "</li>" + "<br>" +
-//         "<li>" + descricao[i].genero + "</li>" + "<br>" +
-//         "<li>" + descricao[i].descricao + "</li>" + "<br>" +
-//         "<li>" + descricao[i].Duracao + "</li>" + "<br>"+
-        
-//         "</ul> </div>" ;
-
-        
-// };
-// document.getElementById("lista-filmes").innerHTML = text;
-// }
-// descrip();
-
-
-// //função chamar as imagens
-
-// const imagens = [ "filme1.jpg", "filme2.jpg", "filme3.jpg", "filme4.jpg"]; 
-
-// function chamaImagem (){
-
-// let pic = "";
-
-// for (let x in imagens){
-//     pic += '<div class="capa1"> + "<img src="../../imagens/filmes/ " + imagens[i] + ">" + </div>';
+        for (let i=0; i<caixaCard.length; i++){
+            text += '<div class="container-principal" id="bloco-card">'+
     
-// }
-// document.getElementById("lista-filmes").innerHTML = pic;
-
-// }
-// chamaImagem();
-
-
-
-
-
-//2ºTENTATIVA//
-
-
-// let descricao = [
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//     },
-
-//     { "id": 1,
-//       "titulo": "A Origem",
-//       "titulo_original": "Inception",
-//       "ano": 2010,
-//       "genero": ["Ficção Científica", "Ação", "Suspense"],
-//       "diretor": "Christopher Nolan",
-//       "descricao": "Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
-//        "Duração":"1h20min",
-//     },
-// ];
-
-// const containerPai = document.getElementById("principal");
-// let contador=0;
-// function listaFilme (descricao){
-
-//     for(let i=0; i<descricao.length;i++){
-//         if( descricao <=0 ){
-//             alert("nenhuma descrição");
-//         }
-//         contador++
-//     }
-// }
-// console.log(contador);
-
-
-
-
-//3º tentava de codigo//
-
-// const filmes = [
-
-//     {
-//         id: 1,
-//         titulo: "A Origem",
-//         titulo_original: "Inception",
-//         ano: 2010,
-//         genero: ["Ficção Científica", "Ação", "Suspense"],
-//         diretor: "Christopher Nolan",
-//         duracao: "2h28min",
-//         imagem: "../imagens/filmes/a-origem.jpg",
-//         descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
-//     },
-
-//     {
-//         id: 2,
-//         titulo: "Star Wars: O Império Contra-Ataca",
-//         titulo_original: "The Empire Strikes Back",
-//         ano: 1980,
-//         genero: ["Ficção Científica", "Aventura"],
-//         diretor: "Irvin Kershner",
-//         duracao: "2h04min",
-//         imagem: "../imagens/filmes/imperio-contra-ataca.jpg",
-//         descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
-//     },
-
-//     {
-//         id: 3,
-//         titulo: "O Hobbit: O inicio de uma jornada",
-//         titulo_original: "The Hobbit",
-//         ano: 2012,
-//         genero: ["Fantasia", "Aventura"],
-//         diretor: "Peter Jackson",
-//         duracao: "2h49min",
-//         imagem: "../imagens/filmes/o-hobbit.pjg",
-//         descricao: "Bilbo Bolseiro, um relutante Hobbit, parte para a Montanha Solitária com um grupo espirituoso de anões para recuperar o lar e o ouro deles na montanha do dragão Smaug."
-//     },
-
-
-// ];
-
-// function renderizarFilmes (){
-//     let html = "";
-//     for (let i=0; i <filmes.length;i++){
-//         html += 
-//         '<article class="card-filme">
-//             <div class="filme-imagem">
-//                 <img src="${filmes[i].imagem}" alt="Capa de ${filmes[i].titulo}">
-//             </div>
-
-//             <div class="filme-descricao">
-//                 <h2>${filmes[i].titulo (${filmes[i].ano})</h2>
-//                 <p>
-//                 <strong> Diretor: </strong>
-//                 ${filmes[i].diretor}
-//                 </p>
-//                 <p>
-//                 <strong> Duração : </strong>
-//                 ${filmes[i].duracao}
-//                 </p>
-//                 <p>
-//                 <strong> Gêneros: </strong>
-//                 ${filmes[i].genero.join}
-//                 </p>
-//                 <h3> Sinopse / Destaque </h3>
-//                 <p>
-//                 ${filmes[i].descricao}
-//                 </p>
-//             </div>
-//         </article>';
-//     }
-//     document.getElementById("lista-filmes").innerHTML = html;
-// }
-
-// renderizarFilmes();
-
-
-// const filmes = [
-
-//     {
-//         id: 1,
-//         titulo: "A Origem",
-//         titulo_original: "Inception",
-//         ano: 2010,
-//         genero: ["Ficção Científica", "Ação", "Suspense"],
-//         diretor: "Christopher Nolan",
-//         duracao: "2h28min",
-//         imagem: "../../imagens/filmes/a-origem.jpg",
-//         descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
-//     },
-
-//     {
-//         id: 2,
-//         titulo: "Star Wars: O Império Contra-Ataca",
-//         titulo_original: "The Empire Strikes Back",
-//         ano: 1980,
-//         genero: ["Ficção Científica", "Aventura"],
-//         diretor: "Irvin Kershner",
-//         duracao: "2h04min",
-//         imagem: "../../imagens/filmes/filme1.jpg",
-//         descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
-//     },
-
-//     {
-//         id: 3,
-//         titulo: "O Hobbit: O início de uma jornada",
-//         titulo_original: "The Hobbit",
-//         ano: 2012,
-//         genero: ["Fantasia", "Aventura"],
-//         diretor: "Peter Jackson",
-//         duracao: "2h49min",
-//         imagem: "../../imagens/filmes/o-hobbit.jpg",
-//         descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
-//     }
-
-// ];
-
-
-// function renderizarFilmes() {
-
-//     let html = "";
-
-//     for (let i = 0; i < filmes.length; i++) {
-
-//         html += `
-//             <article class="card-filme">
-
-//                 <div class="filme-imagem">
-
-//                     <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
-
-//                 </div>
-
-//                 <div class="filme-descricao">
-
-//                     <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
-
-//                     <p> 
-//                     <strong>Título original:</strong>
-//                         ${filmes[i].titulo_original}
-//                     </p>
-
-//                     <p>
-//                         <strong>Diretor:</strong>
-//                         ${filmes[i].diretor}
-//                     </p>
-
-//                     <p>
-//                         <strong>Duração:</strong>
-//                         ${filmes[i].duracao}
-//                     </p>
-
-//                     <p>
-//                         <strong>Gêneros:</strong>
-//                         ${filmes[i].genero.join(", ")}
-//                     </p>
-
-//                     <h3>Sinopse / Destaque</h3>
-
-//                     <p>${filmes[i].descricao}</p>
-
-//                 </div>
-
-//             </article>
-//         `;
-
-//     }
-
-//     document.getElementById("lista-filmes").innerHTML = html;
-
-// }
-
-// fazendo em lista e com o outro atributo de document.getElementById().desse ponto pra frente como subir duas coisas sem uma sobrepor a outra
-//COMO LISTA
-// const filmes = [
-
-//     {
-//         id: 1,
-//         titulo: "A Origem",
-//         titulo_original: "Inception",
-//         ano: 2010,
-//         genero: ["Ficção Científica", "Ação", "Suspense"],
-//         diretor: "Christopher Nolan",
-//         duracao: "2h28min",
-//         imagem: "../../imagens/filmes/a-origem.jpg",
-//         descricao: "Um ladrão que rouba segredos corporativos por meio de sonhos recebe a tarefa de plantar uma ideia na mente de um executivo."
-//     },
-
-//     {
-//         id: 2,
-//         titulo: "Star Wars: O Império Contra-Ataca",
-//         titulo_original: "The Empire Strikes Back",
-//         ano: 1980,
-//         genero: ["Ficção Científica", "Aventura"],
-//         diretor: "Irvin Kershner",
-//         duracao: "2h04min",
-//         imagem: "../../imagens/filmes/filme1.jpg",
-//         descricao: "Luke Skywalker continua seu treinamento enquanto a Aliança Rebelde enfrenta as forças do Império."
-//     },
-
-//     {
-//         id: 3,
-//         titulo: "O Hobbit: O início de uma jornada",
-//         titulo_original: "The Hobbit",
-//         ano: 2012,
-//         genero: ["Fantasia", "Aventura"],
-//         diretor: "Peter Jackson",
-//         duracao: "2h49min",
-//         imagem: "../../imagens/filmes/o-hobbit.jpg",
-//         descricao: "Bilbo Bolseiro parte para a Montanha Solitária com um grupo de anões para recuperar seu lar e o tesouro guardado pelo dragão Smaug."
-//     }
-
-// ];
-
-
-// function renderizarFilmes() {
-
-//     let html = "";
-
-//     for (let i = 0; i < filmes.length; i++) {
-
-//         html += `
-
-
-//             <article class="card-filme">
-
-//                 <div class="filme-imagem">
-
-//                     <img src="${filmes[i].imagem}"alt="Capa de ${filmes[i].titulo}">
-
-//                 </div>
-
-//                 <div class="filme-descricao">
-
-//                     <h2> ${filmes[i].titulo} (${filmes[i].ano}) </h2>
-
-//                     <ul>
-//                         <li>
-//                         <strong>Título original:</strong>
-//                             ${filmes[i].titulo_original}
-//                         </li>
-//                         <li>
-//                             <strong>Diretor:</strong>
-//                             ${filmes[i].diretor}
-//                         </li>
-//                         <li>
-//                             <strong>Duração:</strong>
-//                             ${filmes[i].duracao}
-//                         </li>
-//                         <li>
-//                             <strong>Gêneros:</strong>
-//                             ${filmes[i].genero.join(", ")}
-//                         </li>
-//                     </ul>
-//                         <h3>Sinopse / Destaque</h3>
-//                         <p>${filmes[i].descricao}</p>
-
-//                 </div>
-
-//             </article>
-//         `;
-
-//     }
-
-//     document.getElementById("lista-filmes").innerHTML = html;
-
-// }
-// renderizarFilmes();
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-//CRIAÇÃO DO MENU DEU CERTO, AGORA VAMOS TRANSFORMAR EM OBJETO CADA UM NO MESMO PADRÃO//
-// const menu = ["HOME", "TV SHOWS", "MOVIES", "GAMES", "NEWS & POPULAR", "MY LIST", "BROWSER"];
-
-// function chamaMenu (){
-    
-//     let menuNav = "";
-    
-//     for(let i= 0; i < menu.length; i++){
-
-//     menuNav += "<div> <ul> <li> "+ menu[i] + "</li> </ul> </div>" + "<br>";
-//     }
-//     document.getElementById("TOPNAV").innerHTML = menuNav;
-// }
-
-
-
-// chamaMenu();
-// const menuNav =[
-//     {
-//         nome: "HOME",
-//         pagina:"../home.html"
-
-//     },
-//     {
-//         nome: "TV SHOWS",
-//         pagina:"../html/tvshows.html"
-
-//     },
-//     {
-//         nome: "MOVIES",
-//         pagina:"../movies.html"
-
-//     },
-//     {
-//         nome: "GAMES",
-//         pagina:"../games.html"
-
-//     },
-//     {
-//         nome: "NEWS & POPULAR",
-//         pagina:"../news&popular.html"
-
-//     },
-//     {
-//         nome: "MY LIST ",
-//         pagina:"../mylist.html"
-
-//     },
-//     {
-//         nome: "BROWSER",
-//         pagina:"../browser.html"
-
-//     }
-// ];
-
-// function chamaMenu (){
-
-//     let menuNav2 = "";
-
-//     for(let i in menuNav){
-//         menuNav2 += "<div> <ul> <li> <a href=" + menuNav[i].pagina + ">" + menuNav[i].nome + "</a> </li> </ul> </div>";
-//     }
-//     document.getElementById("TOPNAV").innerHTML = menuNav2;
-// }
-
-// chamaMenu();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            '<div class="capa-filme"> <img src="../imagens/filmes/' + caixaCard[i].Capa + '">' + '</div>'+            
+                '<div class="descricao" id="Descricao"> '+
+                    '<ul>'+
+                        '<li> <span> Titulo: </span>' + caixaCard[i].Titulo +  '</li>'+
+                        '<li> <span> Diretor: </span>' + caixaCard[i].Diretor + '</li>'+
+                        '<li> <span> Elenco: </span>' + caixaCard[i].Elenco + '</li>'+
+                        '<li> <span> Genero: </span>' + caixaCard[i].Genero + '</li>'+
+                    ' <li> <span> Duração: </span>' + caixaCard[i].Duracao + '</li>'+
+                    ' <li> <span> Ano: </span>' + caixaCard[i].Ano + '</li>'+
+                    '</ul>'+
+                    '<h3> SINOPSE: </h3>' +
+                    '<p>'  + caixaCard[i].Sinopse + '</p>'+
+                '</div>'+
+            '</div>';
+        }
+        document.getElementById("bloco-card").innerHTML = text;
+    };
+   chamaDescrip();
+
+
+
+
+   
+
+    const menuTop = ["NET2.webp", "HOME", "TV SHOWS", "LANÇAMENTOS", "MINHA LISTA"];
+    function chamaMenu () {
+       let text2 = "";
+
+        for(let i=0; i <1 ;i++){
+            text2 += '<div class="mini-logo"> <a href="../html/home.html">' + '<img src="../imagens/Icones/' + menuTop[0] + '"alt="">' + '</a> </div>'+
+
+        '<div class="menu-nav">'+
+            '<nav>'+
+                '<ul>'+
+                    '<li> <a href="../html/home.html">' + menuTop[1] + '</a> </li>' +
+                    '<li> <a href="../html/tvshows.html">' + menuTop[2] + '</a></li>'+
+                    '<li> <a href="../html/movies.html">' + menuTop[3] + '</a></li>' +                   
+                    '<li> <a href="../html/lancamentos.html">' +  menuTop[4] + '</a></li>'+                                        
+                '</ul>'+
+            '</nav>' +
+        '</div>' +
+        '<div class="mini-menu">' +
+            '<ul>'+
+                '<li>🔍</li>'+
+                '<li>🔔</li>'+
+                '<li>👤</li>'+
+            '</ul>'+
+        '</div>';
+
+        }
+        document.getElementById("menu-topo").innerHTML = text2;
+    }
+    chamaMenu();
