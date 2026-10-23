@@ -1,91 +1,112 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    background-color: #141414;
-    color: white;
-    font-family: Arial, sans-serif;
-}
+        body {
+            background-color: rgb(20, 20, 20);
+            color: white;
+        }
 
-header {
-    background-color: #141414;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 15px 4%;
-}
+        header {
+            background-color: rgb(20, 20, 20);
+            padding: 15px;
+            color: white;
+        }
 
-/* MENU PRINCIPAL */
-.menu-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+        h1{
+            text-align: center;
+        }
+        
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /*DIV DO CONTAINER MENU PRINCIPAL*/
+        .menu-principal {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;            
+        }
 
-.logo-container {
-    width: 90px; 
-    height: 30px;
-    display: flex;
-    align-items: center;
-}
+        
+        /*IMAGEM ESQUERDA DO MENU*/
+        .mini-logo{
+            width: 200px;
+            height: auto;
+            border: green;            
+            display: flex;            
+        }
+        .mini-logo img{
+            width: 100px;
+            height: auto;
+            object-fit: contain;
+        }
 
-.logo-container img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;/*AJUSTAR A IMAGEM DENTRO DO LIMITE DEFINIDO*/
-}
+        /*MENU CENTRAL*/
+        .menu-nav {
+            display: flex;
+            border-radius: 8px;
+            padding: 10px;
 
-.TOPNAV-container nav ul {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-}
+        }
+        .menu-nav nav ul {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            list-style: none;
+            color: white;
+            gap: 10px;            
+        }
+        .menu-nav ul li{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px;
+            color: white;
+        }
 
-.TOPNAV-container nav ul li a {
-    color: #e5e5e5;
-    text-decoration: none;/* remove o sublinhado */
-    font-size: 13px;
-    font-weight: 500;/*Defina a espessura (grossura) da fonte */
-    transition: color 0.3s;/*Cria uma animação suave , quando você passa o mouse por cima de um link*/
-}
+        .menu-nav nav ul li a{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .menu-nav nav ul li:hover{
+            background-color: rgb(161, 10, 10);
+        }
 
-.TOPNAV-container nav ul li a:hover {
-    color: #b3b3b3;
-}
 
-.menu-pequeno-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-    font-size: 18px;
-    cursor: pointer;/*quando você passa por cima do elemento. Em vez de virar aquela seta padrão de texto, ele vira a mãozinha*/
-}
 
-.menu-pequeno-container button {
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;/*ME EXPLICA ESSE AQUI TAMBEM POR QUE USAR ISSO AQUI?*/
-}
+        /*MINM MENU DIREITA*/
+        .mini-menu {
+            /*background-color: black;*/
+            display: flex;
+        }
+        .mini-menu ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        .mini-menu ul li{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/* MAIN / CONTEÚDO */
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 60px; /* Se não colocasse essa margem no topo do main, o conteúdo principal seria colocado para o extremo topo e ficaria escondido atrás do menu.*/
-}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /*MAIN*/
+        main{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            gap: 10px;
+        }
 
-/* HERO BANNER */
-.hero-container {
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /* BLOCO DE CONTEUDO DA PAGINA*/
+    .hero-container {
     position: relative;
     height: 70vh;
     min-height: 450px;/*Garantir uma altura mínima, o banner ocupar 70% da altura da tela, e esta responsivo também*/
@@ -264,83 +285,74 @@ main {
 
 }
 
-/* FOOTER */
+
+ 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/        
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /*INICIO DO FOOTER*/
+
 footer {
     background-color: #141414;
     color: #808080;
-    padding: 50px 4% 20px 4%;
+    padding: 40px;
     margin-top: 40px;
+    border: 1px solid #222;
 }
 
+/* ICONES */
 .icones-redes-container {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 20px;
 }
-
 .icone img {
     width: 24px;
     height: 24px;
-    filter: brightness(0.7);
 }
 
-.icone img:hover {
-    filter: brightness(1);
-}
 
+/* COLUNAS */
 .colunas-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);/* Configura um layout em Grade (Grid) para o rodapé, dividindo o espaço disponível em 4 colunas iguais */
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
     margin: 20px 0;
+    padding: 0;
+    gap: 20px;
 }
-
 .colunas-container ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-.colunas-container ul li {
-    margin-bottom: 12px;
-    font-size: 13px;
+.colunas-container li {
+    margin-bottom: 10px;
+    font-size: 12px;
 }
-
 footer a {
     color: #808080;
     text-decoration: none;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
 
+/* BOTÃO */
 .btn {
     background-color: transparent;
     color: #808080;
     font-size: 12px;
     padding: 6px 10px;
     border: 1px solid #808080;
-    cursor: pointer;
-    margin-top: 15px;/*ME EXPLICA ESSE AQUI TAMBEM POR QUE USAR ISSO AQUI?*/
+    margin-bottom: 10px;
 }
-
 .btn:hover {
     color: white;
     border-color: white;
 }
-
 footer h2 {
     font-size: 11px;
     font-weight: normal;
-    margin-top: 20px;
-    color: #808080;
-}
-
-@media (max-width: 768px) { /*sso é uma Media Query (Responsividade) . O código dentro dela diz: "Se a tela do usuário não tiver no máximo 768 pixels de largura (como em um tablet ou celular), mude a grade do rodapé para 2 colunas e esconda o menu principal superior" . É uma ferramenta básica para fazer o site funcionar bem em celulares.*/
-    .colunas-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .TOPNAV-container {
-        display: none; /* Esconde menu principal em telas menores (ideal para mobile) */
-    }
-    
 }

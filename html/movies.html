@@ -4,59 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies - Netflix</title>
-    <style>
-        * { padding: 0; margin: 0; box-sizing: border-box; }
-        body { background-color: #121212; color: white; font-family: Arial, sans-serif; }
-        header { background-color: #121212; padding: 15px 4%; border-bottom: 1px solid #222; position: fixed; width: 100%; top: 0; z-index: 100; }
-        .menu-principal { display: flex; align-items: center; justify-content: space-between; }
-        .logo-container img { width: 100px; display: block; }
-        nav ul { display: flex; list-style: none; gap: 15px; }
-        nav ul li a { color: #aaa; text-decoration: none; font-size: 13px; font-weight: bold; }
-        nav ul li a.active { color: #e50914; }
-
-        main { margin-top: 90px; padding: 30px 4%; display: flex; flex-direction: column; gap: 25px; }
-        .destaque-movies { height: 350px; background: linear-gradient(to top, #121212, transparent), url('../imagens/banner2.jpeg') center/cover; border-radius: 8px; display: flex; align-items: flex-end; padding: 30px; }
-        .destaque-movies h1 { font-size: 36px; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); }
-
-        .secao-filmes { display: flex; gap: 15px; overflow-x: auto; padding-bottom: 10px; }
-        .poster-movie { min-width: 150px; border-radius: 6px; overflow: hidden; }
-        .poster-movie img { width: 100%; height: 220px; object-fit: cover; }
-
-        footer { background: #121212; padding: 30px 4%; color: #777; text-align: center; margin-top: 50px; font-size: 12px; border-top: 1px solid #222; }
-    </style>
+    <link rel="stylesheet" href="../css/modelo.css">
 </head>
 <body>
     <header>
-        <div class="menu-principal">
-            <div class="logo-container"><img src="../imagens/Icones/NETFLIX.jpg" alt="Logo"></div>
-            <nav>
-                <ul>
-                    <li><a href="../html/home.html"> HOME  </a></li>
-                    <li><a href="tvshows.html">TV SHOWS</a></li>
-                    <li><a href="movies.html" class="active">MOVIES</a></li>
-                    <li><a href="games.html">GAMES</a></li>
-                    <li><a href="news&popular.html">NEWS & POPULAR</a></li>
-                    <li><a href="mylist.html">MY LIST</a></li>
-                    <li><a href="browser.html">BROWSER</a></li>
-                </ul>
-            </nav>
-            <div style="font-size: 16px;">🔍 🔔 👤</div>
-        </div>
-    </header>
+<!-- MENU PRINCIPAL -->
+    <div class="menu-principal" id="menu-topo">
+        
+    </div>
+</header>
+<!-- FIM DO header -->
+<h1> ESSA PAGINA APRESENTAREMOS O TESTE COM STAR WARS - SAGA </h1>
 
-    <main>
-        <div class="destaque-movies">
-            <h1>🎬 Grandes Estreias no Cinema</h1>
-        </div>
-        <h3>Filmes de Ação e Aventura</h3>
-        <div class="secao-filmes">
-            <div class="poster-movie"><img src="../imagens/filmes/filme9.jpg" alt=""></div>
-            <div class="poster-movie"><img src="../imagens/filmes/filme10.jpg" alt=""></div>
-            <div class="poster-movie"><img src="../imagens/filmes/filme11.jpg" alt=""></div>
-            <div class="poster-movie"><img src="../imagens/filmes/filme12.jpg" alt=""></div>
-        </div>
-    </main>
+<main>
 
-    <footer>@content direitos reservados</footer>
+    <div class="rei-cards">
+        <div id="bloco-card">
+            
+        </div>
+    </div>
+
+</main>
+
+
+
+
+<footer>
+    <div class="icones-redes-container">
+        <div class="icone"><a href="#"><img src="../../imagens/Icones/instagram (1).png" alt="Insta"></a></div>
+        <div class="icone"><a href="#"><img src="../../imagens/Icones/facebook.png" alt="Face"></a></div>
+        <div class="icone"><a href="#"><img src="../../imagens/Icones/youtube.png" alt="YouTube"></a></div>
+    </div>
+
+    <div class="colunas-container">
+        <ul>
+            <li><a href="#">coluna 1</a></li>
+            <li><a href="#">coluna 1</a></li>
+            <li><a href="#">coluna 1</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">coluna 2</a></li>
+            <li><a href="#">coluna 2</a></li>
+            <li><a href="#">coluna 2</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">coluna 3</a></li>
+            <li><a href="#">coluna 3</a></li>
+            <li><a href="#">coluna 3</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">coluna 4</a></li>
+            <li><a href="#">coluna 4</a></li>
+            <li><a href="#">coluna 4</a></li>
+        </ul>
+    </div>
+
+    <button class="btn">BOTÃO</button>
+    <h2>@content direitos reservados</h2>
+<script src="../js/script.js"></script>
+</footer>
 </body>
 </html>
